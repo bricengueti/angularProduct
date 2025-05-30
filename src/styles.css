@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-primary: oklch(0.7 0.1 250); /* Couleur personnalisée */
+  --color-gray-500: oklch(0.55 0.04 260); /* Override */
+}
+
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
